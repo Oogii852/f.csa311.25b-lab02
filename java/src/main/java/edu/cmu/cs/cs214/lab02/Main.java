@@ -10,5 +10,12 @@ public class Main {
         Renderer renderer = new Renderer(shape);
 
         renderer.draw();
+        Shape shape2 = new Circle(3);
+        Renderer renderer2 = new Renderer(shape2);
+        renderer2.draw();
+        Shape shape3 = new Square (4);
+        Renderer renderer3 = new Renderer(shape);
+        renderer3.draw();
+        }
+
     }
-}
